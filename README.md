@@ -1,12 +1,20 @@
 # StereotypesIR
 
-# Stereotypes
-Checkout the [documentation](DOCUMENTATION.md)
+<!-- # Stereotypes -->
+<!-- Checkout the [documentation](DOCUMENTATION.md) -->
+This code repository accompanies the article, "When do stereotypes undermine indirect reciprocity?", by [Mari Kawakatsu](https://www.marikawakatsu.com/), [Sebastián Michel-Mata](https://scholar.google.com/citations?user=U8Ohqq8AAAAJ), [Taylor A. Kessinger](https://scholar.google.com/citations?user=AzR6Vt4AAAAJ), [Corina E. Tarnita](https://scholar.princeton.edu/ctarnita), and [Joshua B. Plotkin](https://evolution.sas.upenn.edu/#).  
 
-## Description
-TODO
+### Directories
+* ```notebooks```: contains Mathematica notebooks for model analysis and figure generation.
+* ```src```: contains Julia scripts for stochastic simulations (module `StereotypesIR`; see below).
 
-## Load the module
+Questions? Please reach out to Mari Kawakatsu ([marikawa@sas.upenn.edu](mailto:marikawa@sas.upenn.edu)) or Sebastián Michel-Mata ([s.michel-mata@princeton.edu](mailto:s.michel-mata@princeton.edu)).
+
+---
+
+## The `StereotypesIR` module
+
+### Load the module
 The `StereotypesIR` module can be loaded as:
 
 ```julia
@@ -20,7 +28,7 @@ any(LOAD_PATH .== pwd()) || push!(LOAD_PATH, pwd())
 using StereotypesIR
 
 ```
-## Structure
+### Structure
 The module `StereotypesIR` is organized as:
 
 ```
